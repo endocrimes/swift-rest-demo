@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.o/Resource/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Resource-0.3.0/Sources/Resource.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.o/Resource/Resource.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.o/Sources/Resource.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.o/Resource/Resource~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.o/Resource/Resource.swiftdeps"
+  }
+}

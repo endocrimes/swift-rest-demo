@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "730c8848ac0523a0b7f8a3f288e8421a"
+build_time: [514115172, 808380000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentConvertible.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentDescription.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentParser.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Command.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandRunner.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Commands.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandType.swift": [514115096, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Group.swift": [514115096, 0]

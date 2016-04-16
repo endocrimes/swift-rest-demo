@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Arbiter.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Arbiter.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Arbiter.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Arbiter~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Arbiter.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/AsyncronousWorker.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/AsyncronousWorker.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/AsyncronousWorker.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/AsyncronousWorker~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/AsyncronousWorker.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Configuration.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Configuration.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Configuration.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Configuration.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Curassow.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Curassow.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Curassow.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Curassow~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Curassow.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Data.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Data.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Data.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Data.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/FDSet.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/FDSet.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/FDSet.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/FDSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/FDSet.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/HTTPParser.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/HTTPParser.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/HTTPParser.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/HTTPParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/HTTPParser.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Logger.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Logger.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Logger.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Logger.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Signals.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Signals.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Signals.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Signals~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Signals.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Socket.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Socket.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Socket.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Socket.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/SynchronousWorker.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/SynchronousWorker.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/SynchronousWorker.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/SynchronousWorker~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/SynchronousWorker.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Worker.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Worker.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Sources/Worker.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Worker~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.o/Curassow/Worker.swiftdeps"
+  }
+}

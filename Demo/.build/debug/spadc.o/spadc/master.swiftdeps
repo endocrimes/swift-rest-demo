@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "ae3d043cbbfb0228925a34cd4cf104ca"
+build_time: [514115183, 222873000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/helpers.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/main.swift": [514115097, 0]

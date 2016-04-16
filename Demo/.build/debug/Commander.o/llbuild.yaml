@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Commander>]
+  Commander: [<Commander>]
+
+commands:
+  <Commander-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentDescription.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Command.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandRunner.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Commands.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandType.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Group.swift"]
+    outputs: ["<Commander-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.swiftmodule","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentDescription.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Command.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandRunner.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Commands.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandType.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Group.swift.o"]
+    module-name: "Commander"
+    module-output-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.swiftmodule"
+    is-library: true
+    sources: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentDescription.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Command.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandRunner.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Commands.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandType.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Group.swift"]
+    objects: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentDescription.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Command.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandRunner.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Commands.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandType.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Group.swift.o"]
+    import-paths: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug"]
+    temps-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <Commander>:
+    tool: shell
+    inputs: ["<Commander-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentDescription.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Command.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandRunner.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Commands.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandType.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Group.swift.o"]
+    outputs: ["<Commander>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.a'; ar cr '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.a' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentConvertible.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentDescription.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentParser.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Command.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandRunner.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Commands.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandType.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Group.swift.o'"]
+    description: "Linking Library:  .build/debug/Commander.a"

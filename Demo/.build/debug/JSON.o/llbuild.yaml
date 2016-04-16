@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<JSON>]
+  JSON: [<JSON>]
+
+commands:
+  <JSON-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSON.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONEncodeable.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParseError.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONSerializer.swift"]
+    outputs: ["<JSON-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.swiftmodule","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSON.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONEncodeable.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParseError.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONSerializer.swift.o"]
+    module-name: "JSON"
+    module-output-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.swiftmodule"
+    is-library: true
+    sources: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSON.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONEncodeable.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParseError.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONSerializer.swift"]
+    objects: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSON.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONEncodeable.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParseError.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONSerializer.swift.o"]
+    import-paths: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug"]
+    temps-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <JSON>:
+    tool: shell
+    inputs: ["<JSON-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSON.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONEncodeable.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParseError.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONSerializer.swift.o"]
+    outputs: ["<JSON>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.a'; ar cr '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.a' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSON.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONEncodeable.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParseError.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParser.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONSerializer.swift.o'"]
+    description: "Linking Library:  .build/debug/JSON.a"

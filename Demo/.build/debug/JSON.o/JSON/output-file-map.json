@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSON.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSON.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSON.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSON.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONEncodeable.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONEncodeable.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONEncodeable.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONEncodeable~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONEncodeable.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParseError.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParseError.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParseError.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParseError~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParseError.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParser.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParser.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONParser.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONParser.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONSerializer.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONSerializer.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/Sources/JSONSerializer.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.o/JSON/JSONSerializer.swiftdeps"
+  }
+}

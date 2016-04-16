@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<demo>]
+  demo: [<demo>]
+
+commands:
+  <demo-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/dan/talks/swift-rest-demo/Demo/Sources/helpers.swift","/Users/dan/talks/swift-rest-demo/Demo/Sources/main.swift"]
+    outputs: ["<demo-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.swiftmodule","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/helpers.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/main.swift.o"]
+    module-name: "demo"
+    module-output-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.swiftmodule"
+    is-library: false
+    sources: ["/Users/dan/talks/swift-rest-demo/Demo/Sources/helpers.swift","/Users/dan/talks/swift-rest-demo/Demo/Sources/main.swift"]
+    objects: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/helpers.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/main.swift.o"]
+    import-paths: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug"]
+    temps-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <demo>:
+    tool: shell
+    inputs: ["<demo-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/helpers.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/main.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.a"]
+    outputs: ["<demo>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo"]
+    args: ["/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc","-o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/helpers.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Resource.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/JSON.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/demo"

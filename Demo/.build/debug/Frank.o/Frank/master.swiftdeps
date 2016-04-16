@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "ec54e14035f1217bd5b270f75af026ec"
+build_time: [514115175, 742188000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Application.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Convenience.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Generated.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterConvertible.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterParser.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ResponseConvertible.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Route.swift": [514115097, 0]

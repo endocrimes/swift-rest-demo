@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/helpers.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/helpers.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/helpers.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/helpers.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/main.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/main.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/demo.o/demo/main.swiftdeps"
+  }
+}

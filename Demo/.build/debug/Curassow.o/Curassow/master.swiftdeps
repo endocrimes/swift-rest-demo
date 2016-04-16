@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "8716a5b4c022b98ba182333c8a681a40"
+build_time: [514115173, 994066000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Arbiter.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/AsyncronousWorker.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Configuration.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Curassow.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Data.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/FDSet.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/HTTPParser.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Logger.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Signals.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Socket.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/SynchronousWorker.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Curassow-0.5.0/Sources/Worker.swift": [514115097, 0]

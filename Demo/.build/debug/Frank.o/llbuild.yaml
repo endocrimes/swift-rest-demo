@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Frank>]
+  Frank: [<Frank>]
+
+commands:
+  <Frank-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Application.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Convenience.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Generated.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ResponseConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Route.swift"]
+    outputs: ["<Frank-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.swiftmodule","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Application.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Convenience.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Generated.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ResponseConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Route.swift.o"]
+    module-name: "Frank"
+    module-output-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.swiftmodule"
+    is-library: true
+    sources: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Application.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Convenience.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Generated.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterParser.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ResponseConvertible.swift","/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Route.swift"]
+    objects: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Application.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Convenience.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Generated.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ResponseConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Route.swift.o"]
+    import-paths: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug"]
+    temps-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <Frank>:
+    tool: shell
+    inputs: ["<Frank-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Application.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Convenience.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Generated.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterParser.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ResponseConvertible.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Route.swift.o","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.a","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Curassow.a"]
+    outputs: ["<Frank>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.a'; ar cr '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.a' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Application.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Convenience.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Generated.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterConvertible.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterParser.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ResponseConvertible.swift.o' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Route.swift.o'"]
+    description: "Linking Library:  .build/debug/Frank.a"

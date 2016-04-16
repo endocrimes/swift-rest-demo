@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "7d3ce0dd9d036c3b091359573479624e"
+build_time: [514115172, 268497000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Payload.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Request.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Response.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Status.swift": [514115097, 0]

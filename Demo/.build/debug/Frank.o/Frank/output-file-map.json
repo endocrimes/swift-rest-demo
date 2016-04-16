@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Application.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Application.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Application.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Application~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Application.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Convenience.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Convenience.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Convenience.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Convenience.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Generated.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Generated.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Generated.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Generated~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Generated.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterConvertible.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterConvertible.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterConvertible.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterConvertible.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ParameterParser.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterParser.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ParameterParser.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ParameterParser.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/ResponseConvertible.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ResponseConvertible.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/ResponseConvertible.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ResponseConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/ResponseConvertible.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Frank-0.3.0/Sources/Route.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Route.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Sources/Route.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Route~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Frank.o/Frank/Route.swiftdeps"
+  }
+}

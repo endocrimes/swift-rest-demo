@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Nest/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Nest-0.3.0/Sources/Nest.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Nest/Nest.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Sources/Nest.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Nest/Nest~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Nest/Nest.swiftdeps"
+  }
+}

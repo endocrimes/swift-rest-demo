@@ -1,0 +1,147 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logger"
+provides-nominal:
+- "C8Curassow6Logger"
+provides-member:
+- ["C8Curassow6Logger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "UnicodeScalarType"
+- "Logger"
+- !private "??"
+- "String"
+- !private "Data"
+- !private "time"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "getpid"
+- !private "print"
+- !private "strftime"
+- !private "StringLiteralType"
+- !private "localtime"
+depends-member:
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "bytes"]
+- !private ["Ps9AnyObject", "capacity"]
+- !private ["Ps9AnyObject", "currentTime"]
+- !private ["Ps9AnyObject", "getpid"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localtime"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "strftime"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "time"]
+- ["Ps9AnyObject", ""]
+- !private ["P9Commander19ArgumentConvertible", "init"]
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["C8Curassow4Data", "bytes"]
+- !private ["C8Curassow4Data", "capacity"]
+- !private ["C8Curassow4Data", "init"]
+- !private ["C8Curassow4Data", "string"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["C8Curassow6Logger", "Data"]
+- ["C8Curassow6Logger", "String"]
+- ["C8Curassow6Logger", "critical"]
+- ["C8Curassow6Logger", "currentTime"]
+- ["C8Curassow6Logger", "deinit"]
+- !private ["C8Curassow6Logger", "getpid"]
+- ["C8Curassow6Logger", "info"]
+- ["C8Curassow6Logger", "init"]
+- !private ["C8Curassow6Logger", "localtime"]
+- !private ["C8Curassow6Logger", "print"]
+- !private ["C8Curassow6Logger", "strftime"]
+- !private ["C8Curassow6Logger", "time"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["P9Inquiline18PayloadConvertible", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["SP", "deinit"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P9Commander19ArgumentConvertible"
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C8Curassow4Data"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "C8Curassow6Logger"
+- !private "Ps14MirrorPathType"
+- !private "Ps16OutputStreamType"
+- !private "P9Inquiline18PayloadConvertible"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "SP"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.swiftmodule"
+- "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.swiftmodule"
+- "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.swiftmodule"
+interface-hash: "f61322d7701a02d0bf92418277c2d37c"

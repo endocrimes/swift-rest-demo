@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Nest>]
+  Nest: [<Nest>]
+
+commands:
+  <Nest-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Nest-0.3.0/Sources/Nest.swift"]
+    outputs: ["<Nest-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.swiftmodule","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    module-name: "Nest"
+    module-output-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.swiftmodule"
+    is-library: true
+    sources: ["/Users/dan/talks/swift-rest-demo/Demo/Packages/Nest-0.3.0/Sources/Nest.swift"]
+    objects: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    import-paths: ["/Users/dan/talks/swift-rest-demo/Demo/.build/debug"]
+    temps-path: "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Nest"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <Nest>:
+    tool: shell
+    inputs: ["<Nest-swiftc>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Sources/Nest.swift.o"]
+    outputs: ["<Nest>","/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a'; ar cr '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.a' '/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Nest.o/Sources/Nest.swift.o'"]
+    description: "Linking Library:  .build/debug/Nest.a"

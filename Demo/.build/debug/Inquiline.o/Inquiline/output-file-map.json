@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Payload.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Payload.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Sources/Payload.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Payload~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Payload.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Request.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Request.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Sources/Request.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Request.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Response.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Response.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Sources/Response.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Response~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Response.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Inquiline-0.3.2/Sources/Status.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Status.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Sources/Status.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Status~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Inquiline.o/Inquiline/Status.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "720ad60bd6c309d9c8dfa057ca3e51de"
+build_time: [514115182, 779299000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Resource-0.3.0/Sources/Resource.swift": [514115097, 0]

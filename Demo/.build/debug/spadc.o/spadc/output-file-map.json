@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/helpers.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/helpers.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/Sources/helpers.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/helpers.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Sources/main.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/main.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/spadc.o/spadc/main.swiftdeps"
+  }
+}

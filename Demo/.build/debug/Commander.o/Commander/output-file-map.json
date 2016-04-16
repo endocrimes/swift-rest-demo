@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/master.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentConvertible.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentConvertible.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentConvertible.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentConvertible.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentDescription.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentDescription.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentDescription.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentDescription~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentDescription.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/ArgumentParser.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentParser.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/ArgumentParser.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/ArgumentParser.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Command.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Command.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Command.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Command~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Command.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandRunner.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandRunner.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandRunner.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandRunner~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandRunner.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Commands.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Commands.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Commands.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Commands~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Commands.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/CommandType.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandType.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/CommandType.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandType~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/CommandType.swiftdeps"
+  },
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/Commander-0.4.1/Sources/Group.swift": {
+    "dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Group.d",
+    "object": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Sources/Group.swift.o",
+    "swiftmodule": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Group~partial.swiftmodule",
+    "swift-dependencies": "/Users/dan/talks/swift-rest-demo/Demo/.build/debug/Commander.o/Commander/Group.swiftdeps"
+  }
+}

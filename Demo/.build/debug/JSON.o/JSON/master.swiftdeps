@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "d2607204a75afb61e2da179db3e489cb"
+build_time: [514115181, 940571000]
+inputs:
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSON.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONEncodeable.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParseError.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONParser.swift": [514115097, 0]
+  "/Users/dan/talks/swift-rest-demo/Demo/Packages/JSON-0.4.0/Sources/JSONSerializer.swift": [514115097, 0]
