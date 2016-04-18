@@ -1,6 +1,6 @@
 
 # REST API's in Swift
-###  Danielle Lancashire*⚡︎* @endocrimes
+### Danielle Lancashire *⚡︎* @endocrimes
 
 ---
 
@@ -157,6 +157,11 @@ This can take a while.
 ```swift
 // main.swift
 import Resource
+import Resource
+import Nest
+import Inquiline
+import Foundation
+import JSON
 
 enum Status: String {
   case Outstanding
@@ -200,8 +205,8 @@ of functions to help later on.
 ...
 
 var todos = [
-  Todo(identifier: "1234", title: "Write talk for SPADC", status: .Completed),
-  Todo(title: "Present talk at SPADC")
+  Todo(identifier: "1234", title: "Write talk for Swift Berlin", status: .Completed),
+  Todo(title: "Present talk at Swift Berlin")
 ]
 
 ```
@@ -216,9 +221,6 @@ database.
 
 ```swift
 // main.swift
-import Resource
-import Frank
-
 ...
 
 get("todos") { _ in
@@ -235,12 +237,12 @@ get("todos") { _ in
 [
   {
     "identifier": "1234",
-    "title": "Write SPADC Talk",
+    "title": "Write talk for Swift Berlin",
     "status": "Completed"
   },
   {
     "identifier": "967B102B-EAEB-462F-907E-F193CE2DB463",
-    "title": "Present talk at SPADC",
+    "title": "Present talk at Swift Berlin",
     "status": "Outstanding"
   }
 ]
@@ -260,10 +262,10 @@ post("todos") { req in
   let title = parsed["title"]!.stringValue!
   let status = parsed["status"]!.stringValue!
   
-  let todo = Todo(title: title, status: Status(rawValue: status))
+  let todo = Todo(title: title, status: Status(rawValue: status)!)
   todos.append(todo)
 
-  return todo.get(request)
+  return try! todo.get(request)
 }
 ```
 
@@ -274,7 +276,7 @@ post("todos") { req in
 ```json
 {
   "identifier": "9B534BBF-C5E0-48F9-9D26-2F2A874BCC16"
-  "title": "Hello SPADC!",
+  "title": "Hello Swift Berlin!",
   "status": "Outstanding"
 }
 ```
@@ -295,7 +297,7 @@ get("todos", *) { (request, identifier: String) in
     return Response(.NotFound, contentType: "application/json", headers: [], content: "{}")
   }
 
-  return todo.get(request)
+  return try! todo.get(request)
 }
 
 ```
@@ -307,7 +309,7 @@ get("todos", *) { (request, identifier: String) in
 ```json
 {
   "identifier": "1234",
-  "title": "Write talk for SPADC",
+  "title": "Write talk for Swift Berlin",
   "status": "Completed"
 }
 ```
